@@ -91,7 +91,7 @@ footer {
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 678px) {
+@media screen and (min-width: 768px) {
     /* Header */
     nav {
         display: block;
@@ -120,5 +120,11 @@ footer {
     main {
         /* push main centent down to accomodate larger header */
         margin-top: 79px;
+    }
+}
+/* Media query: Large devices ( laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
