@@ -108,6 +108,17 @@ main {
     color: #ffffff;
 }
 
+/* reasons section */
+#reasons {
+    width: 90%;
+    margin: auto 20px;
+}
+
+#reasons > h2 {
+    font-size: 280%;
+    margin: 20px;
+}
+#benefits-physical > div, #benefits-mental > div
 /* Footer */
 #social-networks {
     text-align: center;
@@ -157,11 +168,11 @@ main {
     }
 
     /* Hero */
-#cover-text {
-    width: 300px;
-    right: 50px;
-}
-
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+    
 }
 /* Media query: Large devices ( laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
