@@ -131,6 +131,25 @@ main {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+
+ /* circle cover background image */
+#circle-cover-bg {
+    width: 90vw;
+    height: 90vw;
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    margin-bottom: 20px;
+    /* makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -185,6 +204,8 @@ main {
         right: 50px;
     }
     
+   
+
 }
 /* Media query: Large devices ( laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
